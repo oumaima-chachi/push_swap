@@ -6,7 +6,7 @@
 /*   By: ochachi <ochachi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/12 11:12:05 by ochachi           #+#    #+#             */
-/*   Updated: 2025/02/12 11:15:11 by ochachi          ###   ########.fr       */
+/*   Updated: 2025/02/12 11:54:09 by ochachi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ char	*ft_strdup(const char *s1)
 {
 	size_t	slen;
 	char	*s2;
-	
+
 	slen = ft_strlen(s1) + 1;
 	s2 = malloc(slen * sizeof(char));
 	if (!s2)
